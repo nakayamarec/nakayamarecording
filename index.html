@@ -1,290 +1,378 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>出張レコーディングサービス｜いつものリハスタで、そのまま"ちゃんとした音源"を。</title>
-  <meta name="description" content="Midas MR18 × Logic Pro 同時18chマルチ録音対応。コピバン・インディーズ向けの出張レコーディングサービス。3時間15,000円〜。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>中山サウンドワークス｜出張レコーディングサービス</title>
+  <meta
+    name="description"
+    content="インディーズバンド向け出張レコーディング。いつものリハスタで、そのまま使える音源を。3時間15,000円〜。"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- ===== HERO ===== -->
-  <header class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-inner">
-      <p class="hero-tag">Midas MR18 &times; Logic Pro&ensp;/&ensp;同時18chマルチ録音対応</p>
-      <h1 class="hero-title">いつものリハスタで、<br>そのまま<span class="accent">"ちゃんとした音源"</span>を。</h1>
-      <ul class="hero-list">
-        <li>コピバン・インディーズ向けの<strong>出張レコーディングサービス</strong></li>
-        <li><strong>スタジオまで機材を持ち込み</strong>／いつもの楽器とエフェクターだけでOK</li>
-        <li><strong>3時間15,000円〜</strong>（当日仕上げプランあり）</li>
-        <li>納品：2mix（ステレオの完成音源）＋ 希望者にはパラ音源無料</li>
-      </ul>
-      <a href="https://forms.gle/weWD5Uh59qJKRR9A9" class="btn btn-primary" target="_blank" rel="noopener">まずはお気軽にご相談ください</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">中山サウンドワークス</div>
+      <nav class="nav">
+        <a href="#plans">料金</a>
+        <a href="#flow">流れ</a>
+        <a href="#gear">機材</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">問い合わせ</a>
+      </nav>
     </div>
   </header>
 
-  <!-- ===== ABOUT ===== -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">サービス概要</h2>
-      <div class="about-grid">
-        <div class="about-card">
-          <div class="about-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-          </div>
-          <h3>いつものスタジオでOK</h3>
-          <p>練習で使い慣れたリハーサルスタジオへ機材を持ち込みます。特別な場所の手配は不要です。</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          </div>
-          <h3>同時18chマルチ録音</h3>
-          <p>Midas MR18 &times; Logic Pro（48k/24bit）。マイク・ミキサー・MacBookは全てこちらで用意します。</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </div>
-          <h3>バンドから弾き語りまで</h3>
-          <p>バンド／弾き語り（Vo+AG／Vo+Pf）／デュオ／朗読・トーク、なんでもご相談ください。</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </div>
-          <h3>パラレル録音・別日OD対応</h3>
-          <p>パートごとの順番録りや、別日のボーカル・ギターオーバーダブにも対応（最低2h〜）。</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Midas MR18 × Logic Pro / 同時18chマルチ録音対応</p>
+          <h1>
+            インディーズバンド向け<br />
+            出張レコーディングサービス
+          </h1>
+          <p class="lead">
+            いつものリハスタで、そのまま“使える音源”を。<br />
+            高い専用スタジオを押さえなくても、普段の環境のままマルチ録音できます。
+          </p>
 
-  <!-- ===== PRICING ===== -->
-  <section id="pricing" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">料金プラン<span class="section-sub">（税込）</span></h2>
-
-      <div class="plan-grid">
-        <!-- Speed -->
-        <div class="plan-card">
-          <div class="plan-badge">当日仕上げ</div>
-          <h3 class="plan-name">Speed プラン</h3>
-          <p class="plan-time">3時間</p>
-          <p class="plan-price"><span class="price-old">&yen;20,000</span><span class="price-now">&yen;15,000</span></p>
-          <p class="plan-campaign">今だけキャンペーン価格</p>
-          <ul class="plan-features">
-            <li>MR18クイックMix ＋ 簡易Master</li>
-            <li>当日2mix納品（WAV 48k/24bit）</li>
-            <li>修正：音量微調整のみ</li>
-            <li>時間内3曲まで無料</li>
+          <ul class="hero-points">
+            <li>コピバン・インディーズ・弾き語り向け</li>
+            <li>機材持ち込みで、その場で録音</li>
+            <li>3時間 15,000円〜</li>
+            <li>2mix納品＋希望者にはパラ音源無料</li>
           </ul>
-          <p class="plan-for">ライブ感をそのまま残したい方<br>今日のリハを"名刺"にしたい方</p>
-          <a href="https://forms.gle/weWD5Uh59qJKRR9A9" class="btn btn-outline" target="_blank" rel="noopener">相談する</a>
-        </div>
 
-        <!-- Standard -->
-        <div class="plan-card plan-card--featured">
-          <div class="plan-badge">おすすめ</div>
-          <h3 class="plan-name">Standard プラン</h3>
-          <p class="plan-time">4時間</p>
-          <p class="plan-price"><span class="price-now">&yen;45,000</span></p>
-          <p class="plan-note">録音のみ &yen;39,000</p>
-          <ul class="plan-features">
-            <li>当日は録音に徹する &rarr; 後日Mix/Master</li>
-            <li>修正：14日以内・4回まで</li>
-            <li>別日オーバーダブ対応</li>
-            <li>2mix ＋ パラ音源無料</li>
-          </ul>
-          <p class="plan-for">初の"ちゃんとしたデモ"に<br>提出用・歌を別日で録りたい方</p>
-          <a href="https://forms.gle/weWD5Uh59qJKRR9A9" class="btn btn-primary" target="_blank" rel="noopener">相談する</a>
-        </div>
-
-        <!-- Deep Mix -->
-        <div class="plan-card">
-          <div class="plan-badge">じっくり</div>
-          <h3 class="plan-name">Deep Mix プラン</h3>
-          <p class="plan-time">6時間</p>
-          <p class="plan-price"><span class="price-now">&yen;68,000</span></p>
-          <p class="plan-note">録音のみ &yen;59,000</p>
-          <ul class="plan-features">
-            <li>当日は録音に徹する &rarr; 後日じっくりMix</li>
-            <li>修正：14日以内・無制限</li>
-            <li>別日オーバーダブ対応</li>
-            <li>2mix ＋ パラ音源無料</li>
-          </ul>
-          <p class="plan-for">配信やEP前提で質感を詰めたい方<br>MV用の音源を作りたい方</p>
-          <a href="https://forms.gle/weWD5Uh59qJKRR9A9" class="btn btn-outline" target="_blank" rel="noopener">相談する</a>
-        </div>
-      </div>
-
-      <!-- Options -->
-      <div class="options-box">
-        <h3>オプション・その他</h3>
-        <ul>
-          <li>延長：&yen;5,000 / 30分</li>
-          <li>3曲超え：+&yen;8,000 / 曲</li>
-          <li>USB/SSD納品：ドライブ代実費 + &yen;500</li>
-          <li>交通費：最寄駅（中浦和駅）から片道1,000円まで無料。遠方は実費のみ（エリア加算なし）</li>
-        </ul>
-        <div class="options-notes">
-          <p><strong>納品形式</strong>：標準は2mix（WAV 48k/24bit）をギガファイル便で納品。パラ音源はいつでも無料でお渡し可能。</p>
-          <p><strong>データ保管</strong>：録音データは3か月間保管。</p>
-        </div>
-      </div>
-
-      <!-- Revision Policy -->
-      <div class="options-box">
-        <h3>修正ポリシー</h3>
-        <ul>
-          <li><strong>Speed</strong>：音量バランス調整のみ（EQ/コンプ/リバーブの作り直しは対象外）</li>
-          <li><strong>Standard</strong>：初回ミックス納品から14日以内・4回まで</li>
-          <li><strong>Deep Mix</strong>：初回ミックス納品から14日以内・回数無制限</li>
-        </ul>
-        <p class="options-small">※ こちらの都合で再納品が3日以上遅れた場合、遅れた日数分だけ修正期間を延長します。</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FLOW ===== -->
-  <section id="flow" class="section">
-    <div class="container">
-      <h2 class="section-title">当日の流れ</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker">1</div>
-          <div class="timeline-content">
-            <h3>設営・マイキング<span class="timeline-time">約45分</span></h3>
-            <p>スタジオ入り後、機材を展開。マイク立て（ドラム→ベース→ギター→ボーカル）、配線・チャンネル表の確認を行います。クリック有無や返し希望もヒアリング。</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">空き日程を確認する</a>
+            <a href="#plans" class="btn btn-secondary">料金プランを見る</a>
           </div>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">2</div>
-          <div class="timeline-content">
-            <h3>ゲイン調整・モニター確認<span class="timeline-time">約15分</span></h3>
-            <p>ドラム→ベース→ギター→ボーカルの順にゲイン設定。位相の簡易チェック、ヘッドフォン返しの音量・バランスを確認します。</p>
+
+        <div class="hero-card">
+          <div class="mini-card">
+            <span class="mini-label">おすすめの使い方</span>
+            <ul>
+              <li>ライブ告知用の音源</li>
+              <li>提出用デモ</li>
+              <li>一発録りの記録</li>
+              <li>後日ボーカル差し替え</li>
+            </ul>
           </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">3</div>
-          <div class="timeline-content">
-            <h3>レコーディング<span class="timeline-time">メインの時間</span></h3>
-            <p>テイク録音→曲ごとに短時間で確認。Keep／もう一回の判断をしながら進めます。</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">4</div>
-          <div class="timeline-content">
-            <h3>撤収<span class="timeline-time">約30分</span></h3>
-            <p>マイク撤去・ケーブル回収・機材片付け。忘れ物チェック、スタジオ原状回復。</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">5</div>
-          <div class="timeline-content">
-            <h3>終了後の打合せ<span class="timeline-time">10〜15分</span></h3>
-            <p>ミックスの希望（参考曲・方向性）、納品形式、別日オーバーダブの要不要、スケジュール確認。</p>
+          <div class="mini-card accent">
+            <span class="mini-label">まず相談してほしい人</span>
+            <p>
+              「どのプランが合うかわからない」<br />
+              「初めて録音を頼む」<br />
+              「予算内でできる形を探したい」
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== EQUIPMENT ===== -->
-  <section id="equipment" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">使用機材</h2>
-      <div class="equip-grid">
-        <div class="equip-card">
-          <h3>レコーダー / DAW</h3>
+    <section class="trust">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <h2>いつものスタジオでOK</h2>
+          <p>使い慣れたリハーサルスタジオへ機材を持ち込みます。特別な場所の手配は不要です。</p>
+        </div>
+        <div class="trust-item">
+          <h2>同時18chマルチ録音</h2>
+          <p>Midas MR18 × Logic Pro（48k/24bit）。マイク・ミキサー・MacBookはこちらで用意します。</p>
+        </div>
+        <div class="trust-item">
+          <h2>バンドから弾き語りまで</h2>
+          <p>バンド／弾き語り（Vo+AG／Vo+Pf）／デュオ／朗読・トークまで相談可能です。</p>
+        </div>
+        <div class="trust-item">
+          <h2>別日オーバーダブ対応</h2>
+          <p>パートごとの順番録りや、別日のボーカル・ギター追加にも対応します（最低2h〜）。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">PRICE</p>
+          <h2>料金プラン</h2>
+          <p>迷った場合は、用途と予算を送ってもらえればこちらで最適なプランをご提案します。</p>
+        </div>
+
+        <div class="plans">
+          <article class="plan-card">
+            <span class="plan-tag">当日仕上げ</span>
+            <h3>Speed プラン</h3>
+            <p class="plan-time">3時間</p>
+            <p class="plan-price">
+              <span class="old-price">¥20,000</span>
+              <span class="main-price">¥15,000</span>
+            </p>
+            <p class="plan-note">今だけキャンペーン価格</p>
+            <ul class="plan-list">
+              <li>MR18クイックMix ＋ 簡易Master</li>
+              <li>当日2mix納品（WAV 48k/24bit）</li>
+              <li>修正：音量微調整のみ</li>
+              <li>時間内3曲まで無料</li>
+            </ul>
+            <div class="for-box">
+              <strong>向いている人</strong>
+              <p>コピバンの記録、SNS掲載、ライブ告知、名刺代わりの音源が欲しい人。</p>
+            </div>
+            <a href="#contact" class="btn btn-outline">このプランを相談する</a>
+          </article>
+
+          <article class="plan-card featured">
+            <span class="plan-tag featured-tag">おすすめ</span>
+            <h3>Standard プラン</h3>
+            <p class="plan-time">4時間</p>
+            <p class="plan-price">
+              <span class="main-price">¥45,000</span>
+            </p>
+            <p class="sub-price">録音のみ ¥39,000</p>
+            <ul class="plan-list">
+              <li>当日は録音に徹する → 後日Mix / Master</li>
+              <li>修正：14日以内・4回まで</li>
+              <li>別日オーバーダブ対応</li>
+              <li>2mix ＋ パラ音源無料</li>
+            </ul>
+            <div class="for-box">
+              <strong>向いている人</strong>
+              <p>初めてちゃんとしたデモを作るバンド、提出用、歌やギターを後日重ねたい人。</p>
+            </div>
+            <a href="#contact" class="btn btn-primary">このプランを相談する</a>
+          </article>
+
+          <article class="plan-card">
+            <span class="plan-tag">じっくり</span>
+            <h3>Deep Mix プラン</h3>
+            <p class="plan-time">6時間</p>
+            <p class="plan-price">
+              <span class="main-price">¥68,000</span>
+            </p>
+            <p class="sub-price">録音のみ ¥59,000</p>
+            <ul class="plan-list">
+              <li>当日は録音に徹する → 後日じっくりMix</li>
+              <li>修正：14日以内・無制限</li>
+              <li>別日オーバーダブ対応</li>
+              <li>2mix ＋ パラ音源無料</li>
+            </ul>
+            <div class="for-box">
+              <strong>向いている人</strong>
+              <p>配信、MV、EP制作を見据えて質感まで詰めたい人。</p>
+            </div>
+            <a href="#contact" class="btn btn-outline">このプランを相談する</a>
+          </article>
+        </div>
+
+        <div class="options-box">
+          <h3>オプション・その他</h3>
           <ul>
-            <li>Midas MR18（18ch）</li>
-            <li>Logic Pro（48k/24bit）</li>
-            <li>iPadサブ操作</li>
-            <li>Zoom R16（2mixセーフティ）</li>
+            <li>延長：¥5,000 / 30分</li>
+            <li>3曲超え：+¥8,000 / 曲</li>
+            <li>USB / SSD納品：ドライブ代実費 + ¥500</li>
+            <li>交通費：最寄駅（中浦和駅）から片道1,000円まで無料。遠方は実費のみ（エリア加算なし）</li>
+            <li>納品形式：標準は2mix（WAV 48k/24bit）をギガファイル便で納品。パラ音源はいつでも無料でお渡し可能。</li>
+            <li>データ保管：録音データは3か月間保管。</li>
           </ul>
         </div>
-        <div class="equip-card">
-          <h3>マイク</h3>
+
+        <div class="policy-box">
+          <h3>修正ポリシー</h3>
           <ul>
-            <li>SHURE SM58 &times; 3</li>
-            <li>SHURE SM57 &times; 1</li>
-            <li>AKG P2 &times; 1 / P4 &times; 4 / P17 &times; 2</li>
-            <li>RODE NT1 &times; 1</li>
-            <li>Behringer BA91 &times; 1</li>
+            <li>Speed：音量バランス調整のみ（EQ / コンプ / リバーブの作り直しは対象外）</li>
+            <li>Standard：初回ミックス納品から14日以内・4回まで</li>
+            <li>Deep Mix：初回ミックス納品から14日以内・回数無制限</li>
           </ul>
-        </div>
-        <div class="equip-card">
-          <h3>モニター・その他</h3>
-          <ul>
-            <li>HA400（ヘッドフォン4分岐）</li>
-            <li>MX400（クリック配信用）</li>
-          </ul>
-        </div>
-        <div class="equip-card">
-          <h3>録音編成の例</h3>
-          <ul>
-            <li><strong>バンド</strong>：Dr(BD/SD/Toms/OH/Room) + Bass DI/Mic + Gtr&times;2 + Vo</li>
-            <li><strong>弾き語り</strong>：Vo = SM58/NT1、AG = DI + 57、Room = NT1</li>
-            <li><strong>Vo+Pf</strong>：Pf = ステレオマイク、Vo = SM58/NT1</li>
-          </ul>
+          <p class="small-note">
+            ※ こちらの都合で再納品が3日以上遅れた場合、遅れた日数分だけ修正期間を延長します。
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== TESTIMONIAL ===== -->
-  <section id="voice" class="section">
-    <div class="container">
-      <h2 class="section-title">ご利用者の声</h2>
-      <div class="testimonial">
-        <blockquote>
-          <p>中山さんのレコーディングを一言で表すなら、<strong>包容力</strong>、だと思います。</p>
-          <p>元々ライブハウスのPAとして出会いましたが、最初の頃から短時間でやりたい音楽の趣旨を読み取り、的確なバランスで調整してくださってました。</p>
-          <p>レコーディングではPAのときに培った実力と知識を存分に発揮し、バンドのカラーを生かせるのはどういうものか、というのを試行錯誤してくださいます。</p>
-          <p>柔軟に対応しつつ、より良い音楽を作るために支えてくださる姿勢には本当に頭が上がりません。</p>
-          <p>音源は視聴者に届けるプレゼントのようなもの、と私は考えています。その「プレゼント」を包む人として中山さんにレコーディングを頼むのはいいアイディアです。ぜひ、皆様も体験してみてください。</p>
-        </blockquote>
-        <cite>&mdash; ひよこサロペット</cite>
+    <section id="flow" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">FLOW</p>
+          <h2>当日の流れ</h2>
+          <p>初めて依頼する人でも、進行はこちらで案内します。</p>
+        </div>
+
+        <div class="flow-grid">
+          <article class="flow-card">
+            <span>1</span>
+            <h3>設営・マイキング</h3>
+            <p>約45分。配線、チャンネル表、クリックの有無、返し希望まで確認します。</p>
+          </article>
+          <article class="flow-card">
+            <span>2</span>
+            <h3>ゲイン調整・モニター確認</h3>
+            <p>約15分。位相の簡易チェック、ヘッドフォン返しのバランスを確認します。</p>
+          </article>
+          <article class="flow-card">
+            <span>3</span>
+            <h3>レコーディング</h3>
+            <p>メインの時間。テイクごとに短く確認しながら Keep / もう一回 を判断して進めます。</p>
+          </article>
+          <article class="flow-card">
+            <span>4</span>
+            <h3>撤収</h3>
+            <p>約30分。原状回復まで行います。</p>
+          </article>
+          <article class="flow-card">
+            <span>5</span>
+            <h3>終了後の打合せ</h3>
+            <p>10〜15分。参考曲、納品形式、別日オーバーダブ要否、今後の流れを確認します。</p>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== SAMPLE ===== -->
-  <section id="sample" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">音源サンプル</h2>
-      <p class="sample-desc">Deep Mixプランの場合：マイクで録っただけの音と、ミックス・マスタリング後の二種類を掲載しています。</p>
-      <div class="sample-link">
-        <a href="https://soundcloud.com/esqkm0jsmosk" class="btn btn-outline" target="_blank" rel="noopener">SoundCloudで聴く</a>
+    <section id="gear" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">GEAR</p>
+          <h2>使用機材</h2>
+        </div>
+
+        <div class="gear-grid">
+          <div class="gear-box">
+            <h3>レコーダー / DAW</h3>
+            <ul>
+              <li>Midas MR18（18ch）</li>
+              <li>Logic Pro（48k/24bit）</li>
+              <li>iPadサブ操作</li>
+              <li>Zoom R16（2mixセーフティ）</li>
+            </ul>
+          </div>
+
+          <div class="gear-box">
+            <h3>マイク</h3>
+            <ul>
+              <li>SHURE SM58 × 3</li>
+              <li>SHURE SM57 × 1</li>
+              <li>AKG P2 × 1 / P4 × 4 / P17 × 2</li>
+              <li>RODE NT1 × 1</li>
+              <li>Behringer BA91 × 1</li>
+            </ul>
+          </div>
+
+          <div class="gear-box">
+            <h3>モニター・その他</h3>
+            <ul>
+              <li>HA400（ヘッドフォン4分岐）</li>
+              <li>MX400（クリック配信用）</li>
+            </ul>
+          </div>
+
+          <div class="gear-box">
+            <h3>録音編成の例</h3>
+            <ul>
+              <li>バンド：Dr(BD/SD/Toms/OH/Room) + Bass DI/Mic + Gtr×2 + Vo</li>
+              <li>弾き語り：Vo = SM58/NT1、AG = DI + 57、Room = NT1</li>
+              <li>Vo+Pf：Pf = ステレオマイク、Vo = SM58/NT1</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== CTA / CONTACT ===== -->
-  <section id="contact" class="section section-cta">
-    <div class="container">
-      <h2 class="section-title section-title--light">お問い合わせ</h2>
-      <p class="cta-lead">まずはお気軽にご相談ください。<br>空き状況の確認や、プラン選びのご相談もお受けしています。</p>
-      <a href="https://forms.gle/weWD5Uh59qJKRR9A9" class="btn btn-primary btn-large" target="_blank" rel="noopener">お問い合わせフォーム（Googleフォーム）</a>
-      <div class="cta-alt">
-        <p>メール：<a href="mailto:Nakayama.recording@gmail.com">Nakayama.recording@gmail.com</a></p>
-        <p>Instagram DM：<a href="https://www.instagram.com/nakayama.sota.3/" target="_blank" rel="noopener">@nakayama.sota.3</a></p>
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">VOICE / SAMPLE</p>
+          <h2>ご利用者の声・音源サンプル</h2>
+        </div>
+
+        <div class="voice-sample-grid">
+          <blockquote class="voice-box">
+            <p>
+              中山さんのレコーディングを一言で表すなら、包容力、だと思います。<br />
+              ライブハウスPAで培った実力と知識を発揮し、バンドのカラーを生かすために試行錯誤してくださいます。<br />
+              柔軟に対応しつつ、より良い音楽を作るために支えてくださる姿勢には本当に頭が上がりません。
+            </p>
+            <footer>— ひよこサロペット</footer>
+          </blockquote>
+
+          <div class="sample-box">
+            <h3>音源サンプル</h3>
+            <p>
+              Deep Mixプランでは、録ったままの音と、ミックス・マスタリング後の音の両方を比較できます。
+            </p>
+            <a href="https://soundcloud.com/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+              SoundCloudで聴く
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; <script>document.write(new Date().getFullYear())</script> 中山サウンドワークス</p>
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">FAQ</p>
+          <h2>よくある質問</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>スタジオ代は料金に含まれますか？</summary>
+            <p>含まれません。リハーサルスタジオ代はお客様負担です。</p>
+          </details>
+          <details>
+            <summary>初めて録音するバンドでも大丈夫ですか？</summary>
+            <p>大丈夫です。進行や確認事項はこちらで案内します。</p>
+          </details>
+          <details>
+            <summary>パラデータももらえますか？</summary>
+            <p>はい。希望者には無料でお渡ししています。標準納品は2mixです。</p>
+          </details>
+          <details>
+            <summary>どこまで来てもらえますか？</summary>
+            <p>中浦和駅から片道1,000円まで無料、それ以上は実費で対応します。遠方もご相談ください。</p>
+          </details>
+          <details>
+            <summary>どのプランを選べばいいかわかりません。</summary>
+            <p>用途、編成、曲数、予算を送っていただければ、最適な形をご提案します。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div class="contact-copy">
+          <p class="section-label">CONTACT</p>
+          <h2>まずは空き状況と内容を送ってください</h2>
+          <p>
+            「この編成で録れる？」「この予算でいける？」という段階でも大丈夫です。<br />
+            空き日程の確認、プラン相談、見積もり相談を受けています。
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="https://forms.gle/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            お問い合わせフォームを開く
+          </a>
+          <a href="mailto:Nakayama.recording@gmail.com" class="btn btn-secondary">
+            メールで相談する
+          </a>
+          <a href="https://www.instagram.com/nakayama.sota.3/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            Instagram DM
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 中山サウンドワークス</p>
     </div>
   </footer>
-
 </body>
 </html>
